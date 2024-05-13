@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34714.143
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanPlanningApi", "UrbanPlanningApi\UrbanPlanningApi.csproj", "{37BA417A-6EF4-4D2B-AA5F-06E7F132A3A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanPlanningApi", "UrbanPlanningApi\UrbanPlanningApi.csproj", "{BA8853CC-72B5-4F1D-A0E9-6D42622BD360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37BA417A-6EF4-4D2B-AA5F-06E7F132A3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37BA417A-6EF4-4D2B-AA5F-06E7F132A3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37BA417A-6EF4-4D2B-AA5F-06E7F132A3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37BA417A-6EF4-4D2B-AA5F-06E7F132A3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8853CC-72B5-4F1D-A0E9-6D42622BD360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8853CC-72B5-4F1D-A0E9-6D42622BD360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8853CC-72B5-4F1D-A0E9-6D42622BD360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8853CC-72B5-4F1D-A0E9-6D42622BD360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {50E4C85D-747B-435D-9A35-AF4226210DCD}
+		SolutionGuid = {710AB5B4-DF8D-4588-B68F-69DA3960F330}
 	EndGlobalSection
 EndGlobal

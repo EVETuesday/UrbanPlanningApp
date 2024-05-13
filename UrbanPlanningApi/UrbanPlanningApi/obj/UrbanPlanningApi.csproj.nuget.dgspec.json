@@ -45,25 +45,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
             },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
-            },
-            "System.Security.Permissions": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             }
           },
           "imports": [

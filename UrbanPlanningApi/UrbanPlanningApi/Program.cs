@@ -1,38 +1,20 @@
+var builder = WebApplication.CreateBuilder(args);
 
-//var builder = WebApplication.CreateBuilder(args);
+// Add services to the container.
 
-//// Add services to the container.
-
-//builder.Services.AddControllers();
-//// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-//builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
-
-//var app = builder.Build();
-
-//// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
-
-//app.UseHttpsRedirection();
-
-//app.UseAuthorization();
-
-//app.MapControllers();
-
-//app.Run();
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
 
 
-//namespace UrbanPlanningApi
-//{
-//    public class Program
-//    {
-//        public void Main()
-//        {
-//            MessageBox.Show("Hi");
-//        }
-//    }
-//}
+
+var app = builder.Build();
+
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run("http://192.168.0.13:5000");

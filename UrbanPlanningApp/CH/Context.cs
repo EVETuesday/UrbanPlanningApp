@@ -29,7 +29,7 @@ namespace UrbanPlanningApp.CH
         public static ObservableCollection<Postindex> Postindices = new ObservableCollection<Postindex>();
         public static ObservableCollection<TypeOfActivity> TypeOfActivities = new ObservableCollection<TypeOfActivity>();
 
-        private const string APP_PATH = @"http://localhost:5000";
+        private const string APP_PATH = @"http://192.168.0.13:5000";
 
 
         //-------------------------------------------------------Сертификат SSL
