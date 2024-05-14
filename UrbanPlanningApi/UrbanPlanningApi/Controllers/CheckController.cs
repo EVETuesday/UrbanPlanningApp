@@ -48,5 +48,24 @@ namespace UrbanPlanningApi.Controllers
                 return JsonConvert.SerializeObject(new Response() { Id = "100", Title = "Data not found" });
             }
         }
+        [HttpPost, ActionName("AddNewCheck")]
+        [Route("AddNewCheck")]
+
+        public string AddNewCheck(Check check)
+        {
+            SqlConnection sqlConnection = new SqlConnection(gConnectionString);
+            SqlCommand sc = new SqlCommand($"Insert into [Check] (DateOfTheSale, FullCost, IDEmployee, IDClient, IDEstateObject) Values(\'{check.DateOfTheSale}\', {check.FullCost.ToString().Split(',')[0]}.{check.FullCost.ToString().Split(',')[1]}, {check.IDEmployee}, {check.IDClient}, {check.IDEstateObject})", sqlConnection);
+            sqlConnection.Open();
+            int i = sc.ExecuteNonQuery();
+            sqlConnection.Close();
+            if (i > 0)
+            {
+                return "Data is added";
+            }
+            else
+            {
+                return "Data isn't added";
+            }
+        }
     }
 }

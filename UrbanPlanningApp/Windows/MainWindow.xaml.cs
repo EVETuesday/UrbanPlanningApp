@@ -33,20 +33,20 @@ namespace UrbanPlanningApp
             InitializeComponent();
             try
             {
-                ProcessStartInfo processStartInfo = new ProcessStartInfo();
-                processStartInfo.FileName = $@"{Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName}\UrbanPlanningApi\UrbanPlanningApi\bin\Debug\net8.0\UrbanPlanningApi.exe";
-                processStartInfo.UseShellExecute = false;
-                processStartInfo.EnvironmentVariables.Add("ASPNETCORE_ENVIRONMENT", "Development");
-                try
-                {
+                //ProcessStartInfo processStartInfo = new ProcessStartInfo();
+                //processStartInfo.FileName = $@"{Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName}\UrbanPlanningApi\UrbanPlanningApi\bin\Debug\net8.0\UrbanPlanningApi.exe";
+                //processStartInfo.UseShellExecute = false;
+                //processStartInfo.EnvironmentVariables.Add("ASPNETCORE_ENVIRONMENT", "Development");
+                //try
+                //{
                     
-                    Process.Start(processStartInfo);
-                }
-                catch
-                {
-                    processStartInfo.FileName = $@"{Directory.GetCurrentDirectory()}\UrbanPlanningApi.exe";
-                    Process.Start(processStartInfo);
-                }
+                //    Process.Start(processStartInfo);
+                //}
+                //catch
+                //{
+                //    processStartInfo.FileName = $@"{Directory.GetCurrentDirectory()}\UrbanPlanningApi.exe";
+                //    Process.Start(processStartInfo);
+                //}
                 
                 
                 GetData();

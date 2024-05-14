@@ -41,7 +41,7 @@ WindowState="Maximized">
         BorderThickness="4"
                     Margin="0 0 0 50" Click="btnSeeEstate_Click"/>
 
-            <Button x:Name="btnSellEstate"
+            <Button x:Name="btnAddNewEstate"
 Height="200"
 Width="200"
             Content="Добавить объект&#xD;&#xA;недвижимости"
@@ -49,7 +49,7 @@ Width="200"
             Foreground="White"
 Background="#66000000"
 BorderBrush="Black"
-BorderThickness="4"/>
+BorderThickness="4" Click="btnAddNewEstate_Click"/>
         </WrapPanel>
 
 

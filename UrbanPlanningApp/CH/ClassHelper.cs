@@ -16,5 +16,7 @@ namespace UrbanPlanningApp.CH
     public class ClassHelper
     {
         public static Employee ActiveEmployee { get; set; }
+        public static EstateObject DealSelectedEstateObject { get; set; }
+        public static Client DealSelectedClient { get; set; }
     }
 }

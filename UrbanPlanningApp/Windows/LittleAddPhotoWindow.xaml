@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UrbanPlanningApp.Windows"
         mc:Ignorable="d"
-        Title="LittleAddPhotoWindow" Height="250" Width="400">
+        Title="LittleAddPhotoWindow"
+        WindowStartupLocation="CenterScreen"
+        Height="400" Width="400">
     <Grid Background="#FF3A3A3A">
         <Rectangle
         Fill="#66000000"
@@ -15,7 +17,7 @@
             <Border CornerRadius="10"
  BorderBrush="White"
  BorderThickness="1"
-                    Height="120"
+                    Height="220"
  Background="Transparent"
  Margin="0 0 0 10">
                 <Image x:Name="imgPhoto"/>
@@ -39,7 +41,7 @@ FontStyle="Italic" FontWeight="Bold"/>
       Background="Transparent"
       Margin="3"
       Foreground="White"
-      FontSize="20"
+      FontSize="15"
       TextWrapping="Wrap"
       VerticalContentAlignment="Center"
       Height="20"/>
@@ -53,7 +55,7 @@ Foreground="White"
 Content="🔍︎"
 HorizontalAlignment="Right"
 VerticalAlignment="Center"
-Margin="3"/>
+Margin="3" Click="btnTryPhoto_Click"/>
             </Grid>
 
             <StackPanel Orientation="Horizontal"

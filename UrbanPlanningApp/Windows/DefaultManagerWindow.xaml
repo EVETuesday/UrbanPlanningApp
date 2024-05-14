@@ -49,7 +49,7 @@ Width="200"
             Foreground="White"
 Background="#66000000"
 BorderBrush="Black"
-BorderThickness="4"/>
+BorderThickness="4" Click="btnSellEstate_Click"/>
         </WrapPanel>
         
 

@@ -36,3 +36,13 @@ C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\Ad
 C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\LittleAddPhotoWindow.g.cs
 C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\AddNewEstateObjectWindow.baml
 C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\LittleAddPhotoWindow.baml
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\LittleAddPhotoToNewEstateWindow.g.cs
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\LittleAddPhotoToNewEstateWindow.baml
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\SelectEstateToNewEstateObjectWindow.g.cs
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\SelectEstateToNewEstateObjectWindow.baml
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\DealClientSeeWindow.g.cs
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\DealEstateObjectSeeWindow.g.cs
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\DealWindow.g.cs
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\DealClientSeeWindow.baml
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\DealEstateObjectSeeWindow.baml
+C:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\obj\Debug\Windows\DealWindow.baml

@@ -19,6 +19,7 @@ namespace UrbanPlanningApp.DataBasesClasses
         public string FirstName { get; set; }
         public string Patronymic { get; set; }
         public System.DateTime Birthday { get; set; }
+        public string BirthdaySTR { get { return Birthday.ToShortDateString(); }}
         public string Phone { get; set; }
         public bool IsLegalEntity { get; set; }
         public string PasportSeries { get; set; }

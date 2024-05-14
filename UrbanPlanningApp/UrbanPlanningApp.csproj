@@ -82,7 +82,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Windows\DealClientSeeWindow.xaml.cs">
+      <DependentUpon>DealClientSeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DealEstateObjectSeeWindow.xaml.cs">
+      <DependentUpon>DealEstateObjectSeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DealWindow.xaml.cs">
+      <DependentUpon>DealWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SelectEstateToNewEstateObjectWindow.xaml.cs">
+      <DependentUpon>SelectEstateToNewEstateObjectWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="Windows\AddNewEstateObjectWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DealClientSeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DealEstateObjectSeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DealWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -103,6 +127,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\HugeEstateObjectSeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\LittleAddPhotoToNewEstateWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -151,6 +179,9 @@
     <Compile Include="Windows\HugeEstateObjectSeeWindow.xaml.cs">
       <DependentUpon>HugeEstateObjectSeeWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\LittleAddPhotoToNewEstateWindow.xaml.cs">
+      <DependentUpon>LittleAddPhotoToNewEstateWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\LittleAddPhotoWindow.xaml.cs">
       <DependentUpon>LittleAddPhotoWindow.xaml</DependentUpon>
     </Compile>
@@ -158,6 +189,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\SelectEstateToNewEstateObjectWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

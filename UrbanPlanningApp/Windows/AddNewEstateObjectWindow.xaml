@@ -30,7 +30,8 @@ WindowState="Maximized">
         <StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center">
-            <StackPanel VerticalAlignment="Center">
+            <StackPanel VerticalAlignment="Center"
+                        Margin="0 0 0 0">
                 <Label Content="Введите цену:"
 FontSize="20"
 Foreground="White"
@@ -83,13 +84,11 @@ FontStyle="Italic" FontWeight="Bold"/>
  Background="Transparent"
  Margin="0 0 0 40"
 >
-                    <DatePickerTextBox x:Name="dpDateOfDefinition"
+                    <DatePicker x:Name="dpDateOfDefinition"
       BorderBrush="Transparent"
       Background="Transparent"
       Margin="3"
-      Foreground="White"
       FontSize="30"
-                                       TextWrapping="Wrap"
       VerticalContentAlignment="Center"
       Height="40"/>
                 </Border>
@@ -104,18 +103,17 @@ FontStyle="Italic" FontWeight="Bold"/>
  Background="Transparent"
  Margin="0 0 0 40"
 >
-                    <DatePickerTextBox x:Name="dpDateOfApplication"
+                    <DatePicker x:Name="dpDateOfApplication"
       BorderBrush="Transparent"
       Background="Transparent"
       Margin="3"
-      Foreground="White"
       FontSize="30"
-      TextWrapping="Wrap"
       VerticalContentAlignment="Center"
       Height="40"/>
                 </Border>
+
             </StackPanel>
-            <StackPanel Margin="30 0 0 0" VerticalAlignment="Center">
+            <StackPanel Margin="30 128 0 0" VerticalAlignment="Center">
 
                 <Label Content="Введите номер участка:"
 FontSize="20"
@@ -170,13 +168,11 @@ FontStyle="Italic" FontWeight="Bold"/>
  Background="Transparent"
  Margin="0 0 0 40"
 >
-                    <TextBox x:Name="tbPostIndex"
+                    <ComboBox x:Name="cmbPostIndex"
       BorderBrush="Transparent"
       Background="Transparent"
       Margin="3"
-      Foreground="White"
       FontSize="30"
-      TextWrapping="Wrap"
       VerticalContentAlignment="Center"
       Height="40"/>
                 </Border>
@@ -196,12 +192,31 @@ FontStyle="Italic" FontWeight="Bold"/>
       Background="Transparent"
       Margin="3"
       FontSize="30"
-                              SelectedIndex="0"
       VerticalContentAlignment="Center"
       Height="40">
-                        <ComboBoxItem Name="Частная"/>
-                        <ComboBoxItem Name="Государственная"/>
-                        <ComboBoxItem Name="Муниципальная"/>
+                    </ComboBox>
+                </Border>
+
+
+                <Label Content="Выберете тип участка:"
+                       x:Name="lblTypeOfActivity"
+FontSize="20"
+Foreground="White"
+FontStyle="Italic" FontWeight="Bold"/>
+                <Border CornerRadius="15"
+                        x:Name="brdrTypeOfActivity"
+ BorderBrush="White"
+ BorderThickness="3"
+ Background="Transparent"
+ Margin="0 0 0 40"
+>
+                    <ComboBox x:Name="cmbTypeOfActivity"
+      BorderBrush="Transparent"
+      Background="Transparent"
+      Margin="3"
+      FontSize="30"
+      VerticalContentAlignment="Center"
+      Height="40">
                     </ComboBox>
                 </Border>
             </StackPanel>
@@ -264,9 +279,26 @@ VerticalAlignment="Center"
 Margin="3" Click="btnAddPhoto_Click"/>
 
         </StackPanel>
-
-
-
+        <StackPanel VerticalAlignment="Bottom"
+                    Margin="50 0 0 0"
+                    HorizontalAlignment="Left">
+            <Border CornerRadius="15"
+BorderBrush="White"
+BorderThickness="3"
+Background="Transparent"
+Margin="0 0 0 40">
+                <Button x:Name="btnAddEstateObject"
+Content="Зарегестрировать объект"
+BorderThickness="0"
+Margin="10"
+Background="Transparent"
+     Padding="20 0"
+     FontSize="30"
+Foreground="White" Click="btnAddEstateObject_Click"
+/>
+            </Border>
+        </StackPanel>
+        
 
         <Button x:Name="btnBack"
 Height="20"

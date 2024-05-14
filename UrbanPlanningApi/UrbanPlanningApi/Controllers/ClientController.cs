@@ -64,6 +64,50 @@ namespace UrbanPlanningApi.Controllers
         //[HttpPost, ActionName("AddNewClient")]
         //[Route("AddNewClient")]
 
+        //public string AddClient(Client client) //Добавление нового клиента
+        //{
+        //    if (Convert.ToInt32(Convert.ToBoolean(client.IsLegalEntity)) == 1)
+        //    {
+        //        client.PasportNumber = "NULL";
+        //        client.PasportSeries = "NULL";
+
+        //        client.CompanyTitle = "'" + client.CompanyTitle + "'";
+        //        client.INN = "'" + client.INN + "'";
+        //        client.KPP = "'" + client.KPP + "'";
+        //        client.OGRN = "'" + client.OGRN + "'";
+        //        client.PaymentAccount = "'" + client.PaymentAccount + "'";
+        //        client.CorrespondentAccount = "'" + client.CorrespondentAccount + "'";
+        //        client.BIK = "'" + client.BIK + "'";
+        //    }
+        //    else
+        //    {
+        //        client.CompanyTitle = "NULL";
+        //        client.INN = "NULL";
+        //        client.KPP = "NULL";
+        //        client.OGRN = "NULL";
+        //        client.PaymentAccount = "NULL";
+        //        client.CorrespondentAccount = "NULL";
+        //        client.BIK = "NULL";
+
+        //        client.PasportNumber = "'" + client.PasportNumber + "'";
+        //        client.PasportSeries = "'" + client.PasportSeries + "'";
+        //    }
+        //    SqlConnection sqlConnection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+        //    SqlCommand sc = new SqlCommand("insert into Client(LastName, FirstName,Patronymic,Birthday,Phone,IsLegalEntity,PasportSeries,PasportNumber, CompanyTitle,INN,KPP,OGRN,PaymentAccount,CorrespondentAccount,BIK,IDGender)\r\nvalues('" + client.LastName + "','" + client.FirstName + "','" + client.Patronymic + "','" + client.Birthday + "','" + client.Phone + "'," + Convert.ToInt32(Convert.ToBoolean(client.IsLegalEntity)) + "," + client.PasportSeries + "," + client.PasportNumber + "," + client.CompanyTitle + "," + client.INN + "," + client.KPP + "," + client.OGRN + "," + client.PaymentAccount + "," + client.CorrespondentAccount + "," + client.BIK + "," + client.IDGender + ")", sqlConnection);
+        //    sqlConnection.Open();
+        //    int i = sc.ExecuteNonQuery();
+        //    sqlConnection.Close();
+        //    if (i > 0)
+        //    {
+        //        return "Data is added";
+        //    }
+        //    else
+        //    {
+        //        return "Data isn't added";
+        //    }
+
+        //}
+
 
 
         //[HttpPost, ActionName("DeleteClient")]

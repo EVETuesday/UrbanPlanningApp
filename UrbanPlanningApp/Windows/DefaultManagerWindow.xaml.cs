@@ -41,5 +41,12 @@ namespace UrbanPlanningApp.Windows
             estateObjectSeeWindow.Show();
             Close();
         }
+
+        private void btnSellEstate_Click(object sender, RoutedEventArgs e)
+        {
+            DealEstateObjectSeeWindow dealEstateObjectSeeWindow=new DealEstateObjectSeeWindow();
+            dealEstateObjectSeeWindow.Show();
+            Close();
+        }
     }
 }

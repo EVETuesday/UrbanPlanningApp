@@ -41,5 +41,12 @@ namespace UrbanPlanningApp.Windows
             estateObjectSeeWindow.Show();
             Close();
         }
+
+        private void btnAddNewEstate_Click(object sender, RoutedEventArgs e)
+        {
+            AddNewEstateObjectWindow addNewEstateObjectWindow = new AddNewEstateObjectWindow();
+            addNewEstateObjectWindow.Show();
+            Close();
+        }
     }
 }

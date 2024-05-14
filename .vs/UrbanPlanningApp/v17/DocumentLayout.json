@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapp\\ch\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\ch\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D6F714B-D4D0-4873-859C-FC8ADAA9C341}|UrbanPlanningApi\\UrbanPlanningApi\\UrbanPlanningApi.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapi\\urbanplanningapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D6F714B-D4D0-4873-859C-FC8ADAA9C341}|UrbanPlanningApi\\UrbanPlanningApi\\UrbanPlanningApi.csproj|solutionrelative:urbanplanningapi\\urbanplanningapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D6F714B-D4D0-4873-859C-FC8ADAA9C341}|UrbanPlanningApi\\UrbanPlanningApi\\UrbanPlanningApi.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapi\\urbanplanningapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0D6F714B-D4D0-4873-859C-FC8ADAA9C341}|UrbanPlanningApi\\UrbanPlanningApi\\UrbanPlanningApi.csproj|solutionrelative:urbanplanningapi\\urbanplanningapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,44 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\Context.cs",
-              "RelativeDocumentMoniker": "UrbanPlanningApp\\CH\\Context.cs",
-              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\Context.cs",
-              "RelativeToolTip": "UrbanPlanningApp\\CH\\Context.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwB8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:38:08.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Program.cs",
-              "RelativeDocumentMoniker": "UrbanPlanningApi\\UrbanPlanningApi\\Program.cs",
-              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Program.cs",
-              "RelativeToolTip": "UrbanPlanningApi\\UrbanPlanningApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:24:00.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "UrbanPlanningApi\\UrbanPlanningApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "UrbanPlanningApi\\UrbanPlanningApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T15:58:15.666Z"
             }
           ]
         }

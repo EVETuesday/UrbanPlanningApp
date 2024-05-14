@@ -52,5 +52,26 @@ namespace UrbanPlanningApi.Controllers
                 return JsonConvert.SerializeObject(new Response() { Id = "100", Title = "Data not found" });
             }
         }
+
+
+        [HttpPost, ActionName("AddNewEstateObject")]
+        [Route("AddNewEstateObject")]
+
+        public string AddNewEstateObject(EstateObject estateObject)
+        {
+            SqlConnection sqlConnection = new SqlConnection(gConnectionString);
+            SqlCommand sc = new SqlCommand($"Insert into EstateObject (Square, Price, DateOfDefinition, DateOfApplication, Number, Adress, IDPostIndex, IDTypeOfActivity, IDFormat) Values({estateObject.Square.ToString().Split(',')[0]+"."+estateObject.Square.ToString().Split(',')[1]}, {estateObject.Price.ToString().Split(',')[0] + "." + estateObject.Price.ToString().Split(',')[1]}, \'{estateObject.DateOfDefinition}\', \'{estateObject.DateOfApplication}\', {estateObject.Number}, \'{estateObject.Adress}\', {estateObject.IDPostIndex}, {estateObject.IDTypeOfActivity},{estateObject.IDFormat})", sqlConnection);
+            sqlConnection.Open();
+            int i = sc.ExecuteNonQuery();
+            sqlConnection.Close();
+            if (i > 0)
+            {
+                return "Data is added";
+            }
+            else
+            {
+                return "Data isn't added";
+            }
+        }
     }
 }

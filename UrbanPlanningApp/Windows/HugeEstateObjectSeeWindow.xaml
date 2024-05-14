@@ -219,7 +219,7 @@ Margin="10 0 0 0"/>
                 BorderBrush="White"
                 BorderThickness="1"
                 Margin="5">
-                            <StackPanel Margin="0 0 0 30">
+                            <Grid Margin="0 0 0 30">
 
                                 <Image Height="270"
                                        Width="300">
@@ -235,11 +235,34 @@ Margin="10 0 0 0"/>
 
                                 </Image>
 
-                            </StackPanel>
+                                <Button x:Name="btnDeletePhoto"
+Height="20"
+Width="20"
+Background="#FF505050"
+BorderBrush="White"
+Foreground="White"
+Content="x"
+HorizontalAlignment="Right"
+VerticalAlignment="Top"
+Margin="3" Click="btnDeletePhoto_Click"/>
+
+                            </Grid>
                         </Border>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
+            <Button x:Name="btnAddPhoto"
+Height="50"
+Width="50"
+Background="#FF505050"
+BorderBrush="White"
+Foreground="White"
+Content="+"
+FontSize="30"
+HorizontalAlignment="Right"
+VerticalAlignment="Center"
+Margin="3" Click="btnAddPhoto_Click"/>
         </StackPanel>
         
 

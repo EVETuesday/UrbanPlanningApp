@@ -27,6 +27,7 @@ namespace UrbanPlanningApp.Windows
         public EstateObjectSeeWindow()
         {
             InitializeComponent();
+            GetData();
             estateObjects = new ObservableCollection<EstateObject>(EstateObjects);
             SetLv();
         }

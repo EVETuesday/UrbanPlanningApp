@@ -45,5 +45,25 @@ namespace UrbanPlanningApi.Controllers
                 return JsonConvert.SerializeObject(new Response() { Id = "100", Title = "Data not found" });
             }
         }
+
+        [HttpPost, ActionName("AddNewEstateRelations")]
+        [Route("AddNewEstateRelations")]
+
+        public string AddNewEstateRelations(EstateRelation estateRelation)
+        {
+            SqlConnection sqlConnection = new SqlConnection(gConnectionString);
+            SqlCommand sc = new SqlCommand($"Insert into EstateRelation (IDPlaceEstate, IDBuildingEstate) Values({estateRelation.IDPlaceEstate}, {estateRelation.IDBuildingEstate})", sqlConnection);
+            sqlConnection.Open();
+            int i = sc.ExecuteNonQuery();
+            sqlConnection.Close();
+            if (i > 0)
+            {
+                return "Data is added";
+            }
+            else
+            {
+                return "Data isn't added";
+            }
+        }
     }
 }
