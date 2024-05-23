@@ -25,6 +25,7 @@ namespace UrbanPlanningApp.Windows
     public partial class AddNewEstateObjectWindow : Window
     {
         public EstateObject addedEstateObject = new EstateObject();
+        public bool BackBtn = false;
         public AddNewEstateObjectWindow()
         {
             InitializeComponent();
@@ -136,18 +137,22 @@ namespace UrbanPlanningApp.Windows
             {
                 PostEstateObject();
             }
-            MessageBox.Show("Объект недвижимости успешно добавлен");
-            if (ActiveEmployee.IDPost==2)
+            if (!BackBtn)
             {
-                DefaultEngineerWindow defaultEngineerWindow = new DefaultEngineerWindow();
-                defaultEngineerWindow.Show();
+                MessageBox.Show("Объект недвижимости успешно добавлен");
+                if (ActiveEmployee.IDPost == 2)
+                {
+                    DefaultEngineerWindow defaultEngineerWindow = new DefaultEngineerWindow();
+                    defaultEngineerWindow.Show();
+                }
+                else
+                {
+                    DefaultArchitectWindow defaultArchitectWindow = new DefaultArchitectWindow();
+                    defaultArchitectWindow.Show();
+                }
+                Close();
             }
-            else
-            {
-                DefaultArchitectWindow defaultArchitectWindow = new DefaultArchitectWindow();
-                defaultArchitectWindow.Show();
-            }
-            Close();
+            
         }
         public void PostEstateObject()
         {

@@ -1,6 +1,9 @@
 ﻿
 
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\AddNewEstateObjectWindow.xaml;;
+FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DealClientSeeWindow.xaml;;
+FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DealEstateObjectSeeWindow.xaml;;
+FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DealWindow.xaml;;
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DefaultArchitectWindow.xaml;;
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DefaultEngineerWindow.xaml;;
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DefaultManagerWindow.xaml;;
@@ -10,7 +13,4 @@ FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\LittleAddPh
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\LittleAddPhotoWindow.xaml;;
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\MainWindow.xaml;;
 FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\SelectEstateToNewEstateObjectWindow.xaml;;
-FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DealClientSeeWindow.xaml;;
-FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DealEstateObjectSeeWindow.xaml;;
-FC:\Users\EVE\source\repos\UrbanPlanningApp\UrbanPlanningApp\Windows\DealWindow.xaml;;
 

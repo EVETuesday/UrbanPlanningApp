@@ -115,7 +115,7 @@ FontStyle="Italic" FontWeight="Bold"/>
             </StackPanel>
             <StackPanel Margin="30 128 0 0" VerticalAlignment="Center">
 
-                <Label Content="Введите номер участка:"
+                <Label Content="Введите номер объекта:"
 FontSize="20"
 Foreground="White"
 FontStyle="Italic" FontWeight="Bold"/>

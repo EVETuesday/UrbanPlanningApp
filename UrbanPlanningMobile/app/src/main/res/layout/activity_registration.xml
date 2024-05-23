@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".Registration">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border_shape"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView_HeaderRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Регистрация"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="371dp"
+        android:layout_height="575dp"
+        android:background="@drawable/border_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="31dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_FirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="30dp"
+                    android:text="Введите имя"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_FirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_LastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите фамилию"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_LastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_Patronymic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите отчество"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_Patronymic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_Gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Выберете пол"
+                    android:textColor="@color/white" />
+                <Spinner
+                    android:id="@+id/Spinner_Genders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape" />
+
+                <TextView
+                    android:id="@+id/textView_Birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="30dp"
+                    android:text="Выберете дату рождения"
+                    android:textColor="@color/white" />
+
+                <DatePicker
+                    android:id="@+id/date_picker_Birthday"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:datePickerMode="spinner"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_Phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите номер телефона"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_Phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_PasportSeries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите серию паспорта"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_PasportSeries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_PasportNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите номер паспорта"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_PasportNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_Login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите логин"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_Login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Введите пароль"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView_SecondPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:text="Повторите пароль"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editText_SecondPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/border_shape"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white" />
+
+                <androidx.constraintlayout.utils.widget.MotionButton
+                    android:id="@+id/btnNoLegalReg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/button_shape"
+                    android:text="Зарегестрироваться"
+
+
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnRegMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/Transparent"
+        android:text="Зарегестрироваться как&#xD;&#xA;юридическое лицо"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

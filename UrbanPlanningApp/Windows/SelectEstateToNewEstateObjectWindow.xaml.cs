@@ -40,7 +40,9 @@ namespace UrbanPlanningApp.Windows
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
+            addNewEstateObjectWindow2.BackBtn = true;
             Close();
+
         }
 
         private void btnInfo_Click(object sender, RoutedEventArgs e)
@@ -52,6 +54,7 @@ namespace UrbanPlanningApp.Windows
         {
             EstateObject estateObject = LvEstateList.SelectedItem as EstateObject;
             addNewEstateObjectWindow2.PostEstateObject(estateObject);
+            addNewEstateObjectWindow2.BackBtn = false;
             Close();
         }
     }

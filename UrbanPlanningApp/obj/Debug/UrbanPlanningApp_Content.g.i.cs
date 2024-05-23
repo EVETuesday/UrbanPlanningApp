@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ch/databasesclasses/model1.context.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ch/databasesclasses/model1.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("urbanplannungicon.ico")]
 
 

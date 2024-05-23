@@ -19,6 +19,8 @@ using static UrbanPlanningApp.CH.ClassHelper;
 using System.IO;
 using System.Threading;
 using System.Diagnostics;
+using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace UrbanPlanningApp
 {
@@ -39,7 +41,7 @@ namespace UrbanPlanningApp
                 //processStartInfo.EnvironmentVariables.Add("ASPNETCORE_ENVIRONMENT", "Development");
                 //try
                 //{
-                    
+
                 //    Process.Start(processStartInfo);
                 //}
                 //catch
@@ -47,8 +49,8 @@ namespace UrbanPlanningApp
                 //    processStartInfo.FileName = $@"{Directory.GetCurrentDirectory()}\UrbanPlanningApi.exe";
                 //    Process.Start(processStartInfo);
                 //}
-                
-                
+
+
                 GetData();
             }
             catch (Exception ex)
@@ -60,8 +62,8 @@ namespace UrbanPlanningApp
         private void btnEnter_Click(object sender, RoutedEventArgs e)
         {
             Employee employee = new Employee();
-            employee = Employees.Where(i=>i.Login==tbLogin.Text && i.Password==tbPassword.Password).FirstOrDefault();
-            if (employee!=null)
+            employee = Employees.Where(i => i.Login == tbLogin.Text && i.Password == tbPassword.Password).FirstOrDefault();
+            if (employee != null)
             {
                 ActiveEmployee = employee;
                 switch (employee.IDPost)

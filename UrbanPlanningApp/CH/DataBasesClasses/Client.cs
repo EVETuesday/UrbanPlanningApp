@@ -36,18 +36,7 @@ namespace UrbanPlanningApp.DataBasesClasses
         public string Password { get; set; }
         public string FullName {
             get {
-                if (IsLegalEntity)
-                {
-                    return $"{CompanyTitle}";
-                }
-                else if(string.IsNullOrEmpty(FirstName))
-                {
-                    return $"UrbanPlanningCompany";
-                }
-                else
-                {
                     return $"{LastName} {FirstName} {Patronymic}";
-                }
             }
             
         }

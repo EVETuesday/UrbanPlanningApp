@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
 using UrbanPlanningApi.Classes;
@@ -72,6 +73,7 @@ namespace UrbanPlanningApi.Controllers
             {
                 return "Data isn't added";
             }
+            
         }
     }
 }
