@@ -158,7 +158,7 @@ FontStyle="Italic" FontWeight="Bold"/>
                 </Border>
 
 
-                <Label Content="Введите почтовый индекс:"
+                <Label Content="Выберете почтовый индекс:"
 FontSize="20"
 Foreground="White"
 FontStyle="Italic" FontWeight="Bold"/>
@@ -177,7 +177,7 @@ FontStyle="Italic" FontWeight="Bold"/>
       Height="40"/>
                 </Border>
 
-                <Label Content="Выберете формат участка:"
+                <Label Content="Выберете формат объекта:"
 FontSize="20"
 Foreground="White"
 FontStyle="Italic" FontWeight="Bold"/>
@@ -198,7 +198,7 @@ FontStyle="Italic" FontWeight="Bold"/>
                 </Border>
 
 
-                <Label Content="Выберете тип участка:"
+                <Label Content="Выберете тип объекта:"
                        x:Name="lblTypeOfActivity"
 FontSize="20"
 Foreground="White"
