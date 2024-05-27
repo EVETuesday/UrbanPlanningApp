@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\urbanplanningapp\\windows\\littleaddphotowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\windows\\littleaddphotowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\urbanplanningapp\\windows\\littleaddphotowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\windows\\littleaddphotowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapp\\ch\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\ch\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapp\\ch\\classhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D6F714B-D4D0-4873-859C-FC8ADAA9C341}|UrbanPlanningApi\\UrbanPlanningApi\\UrbanPlanningApi.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapi\\urbanplanningapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6F714B-D4D0-4873-859C-FC8ADAA9C341}|UrbanPlanningApi\\UrbanPlanningApi\\UrbanPlanningApi.csproj|solutionrelative:urbanplanningapi\\urbanplanningapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\urbanplanningapp\\ch\\databasesclasses\\estatephoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\ch\\databasesclasses\\estatephoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\urbanplanningapp\\ch\\classhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\ch\\classhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|c:\\users\\eve\\source\\repos\\urbanplanningapp\\urbanplanningapp\\ch\\databasesclasses\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\urbanplanningapp\\ch\\databasesclasses\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55AAC8E-BDD7-4064-9F69-CA4BB4DED350}|UrbanPlanningApp\\UrbanPlanningApp.csproj|solutionrelative:urbanplanningapp\\ch\\databasesclasses\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +58,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwIkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:59:40.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstatePhoto.cs",
+              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\DataBasesClasses\\EstatePhoto.cs",
+              "RelativeDocumentMoniker": "UrbanPlanningApp\\CH\\DataBasesClasses\\EstatePhoto.cs",
+              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\DataBasesClasses\\EstatePhoto.cs",
+              "RelativeToolTip": "UrbanPlanningApp\\CH\\DataBasesClasses\\EstatePhoto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:56:06.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LittleAddPhotoWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml.cs",
+              "RelativeToolTip": "UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwDYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:54:32.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LittleAddPhotoWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml",
+              "RelativeDocumentMoniker": "UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml",
+              "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml",
+              "RelativeToolTip": "UrbanPlanningApp\\Windows\\LittleAddPhotoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-25T19:54:28.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Context.cs",
               "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\Context.cs",
               "RelativeDocumentMoniker": "UrbanPlanningApp\\CH\\Context.cs",
               "ToolTip": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\Context.cs",
               "RelativeToolTip": "UrbanPlanningApp\\CH\\Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T00:10:40.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ClassHelper.cs",
               "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\ClassHelper.cs",
               "RelativeDocumentMoniker": "UrbanPlanningApp\\CH\\ClassHelper.cs",
@@ -63,12 +128,11 @@
               "RelativeToolTip": "UrbanPlanningApp\\CH\\ClassHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T00:10:30.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T00:10:30.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Check.cs",
               "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApp\\CH\\DataBasesClasses\\Check.cs",
               "RelativeDocumentMoniker": "UrbanPlanningApp\\CH\\DataBasesClasses\\Check.cs",
@@ -76,12 +140,11 @@
               "RelativeToolTip": "UrbanPlanningApp\\CH\\DataBasesClasses\\Check.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T00:04:04.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T00:04:04.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EstatePhotoController.cs",
               "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\EstatePhotoController.cs",
               "RelativeDocumentMoniker": "UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\EstatePhotoController.cs",
@@ -89,12 +152,11 @@
               "RelativeToolTip": "UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\EstatePhotoController.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAuwDcAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T23:24:53.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T23:24:53.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\EVE\\source\\repos\\UrbanPlanningApp\\UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\PostController.cs",
@@ -102,8 +164,7 @@
               "RelativeToolTip": "UrbanPlanningApi\\UrbanPlanningApi\\Controllers\\PostController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T23:08:04.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T23:08:04.666Z"
             }
           ]
         }
