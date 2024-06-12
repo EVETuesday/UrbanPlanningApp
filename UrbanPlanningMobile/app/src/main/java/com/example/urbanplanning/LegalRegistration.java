@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -47,7 +48,7 @@ public class LegalRegistration extends AppCompatActivity implements AdapterView.
     EditText tbPassword;
     EditText tbSecondPassword;
 
-
+    SharedPreferences settings;
     GetDataClass getDataClass;
 
     @Override
@@ -56,6 +57,14 @@ public class LegalRegistration extends AppCompatActivity implements AdapterView.
         setContentView(R.layout.activity_legal_registration);
 
         getDataClass = new GetDataClass();
+        try {
+            settings = getSharedPreferences("IP", MODE_PRIVATE);
+            getDataClass.API_URL=settings.getString("IP","http://192.168.0.13:5000");
+        }
+        catch(Exception ex)
+        {
+
+        }
         getDataClass.GetData();
 
 

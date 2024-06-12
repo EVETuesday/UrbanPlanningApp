@@ -29,7 +29,7 @@ namespace UrbanPlanningApp.CH
         public static ObservableCollection<Postindex> Postindices = new ObservableCollection<Postindex>();
         public static ObservableCollection<TypeOfActivity> TypeOfActivities = new ObservableCollection<TypeOfActivity>();
 
-        public const string APP_PATH = @"http://192.168.0.13:5000";
+        public static string APP_PATH = @"http://192.168.0.13:5000";
 
 
         //-------------------------------------------------------Сертификат SSL
@@ -40,6 +40,22 @@ namespace UrbanPlanningApp.CH
 
         public static void GetData()
         {
+            try
+            {
+                using (StreamReader ssr = new StreamReader(Directory.GetCurrentDirectory() + @"\ipconfig.txt"))
+                {
+                    APP_PATH = ssr.ReadToEnd();
+                }
+            }
+            catch
+            {
+                using (StreamReader ssr = new StreamReader(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName + @"\ipconfig.txt"))
+                {
+                    APP_PATH = ssr.ReadToEnd();
+                }
+            }
+            
+
             HttpWebRequest httpWebRequest;
             HttpWebResponse httpWebResponse;
             Stream stream;

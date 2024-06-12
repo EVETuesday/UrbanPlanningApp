@@ -4,10 +4,12 @@ import static com.example.urbanplanning.Classes.GetDataClass.Clients;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
     EditText tb_Login;
     EditText tb_Password;
 
+    TextView textViewSecret;
+    int secretScore=0;
+    EditText editTextTextIP;
+    Button btnSecretGo;
+
+    SharedPreferences settings;
+
     GetDataClass getDataClass= new GetDataClass();
 
 
@@ -39,6 +48,60 @@ public class MainActivity extends AppCompatActivity {
 
         tb_Login=findViewById(R.id.editText_MainLogin);
         tb_Password=findViewById(R.id.editText_MainPassword);
+        textViewSecret=findViewById(R.id.textViewSecret);
+        editTextTextIP=findViewById(R.id.editTextTextIP);
+        btnSecretGo = findViewById(R.id.btnSecretGo);
+        try {
+            settings = getSharedPreferences("IP", MODE_PRIVATE);
+            editTextTextIP.setText(settings.getString("IP","http://192.168.0.13:5000"));
+        }
+        catch(Exception ex)
+        {
+
+        }
+        try {
+            getDataClass.API_URL=settings.getString("IP","http://192.168.0.13:5000");
+        }
+        catch(Exception ex)
+        {
+
+        }
+
+
+        btnSecretGo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                SharedPreferences.Editor prefEditor = settings.edit();
+                prefEditor.putString("IP", editTextTextIP.getText().toString());
+                prefEditor.apply();
+                getDataClass.API_URL=editTextTextIP.getText().toString();
+                Toast.makeText(MainActivity.this,"IP Сохранён "+getDataClass.API_URL,Toast.LENGTH_LONG).show();
+            }
+        });
+
+        textViewSecret.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                secretScore+=1;
+                if (secretScore>=10)
+                {
+                    editTextTextIP.setVisibility(View.VISIBLE);
+                    btnSecretGo.setVisibility(View.VISIBLE);
+                    editTextTextIP.setEnabled(true);
+                    btnSecretGo.setEnabled(true);
+
+                }
+                if (secretScore>=12)
+                {
+                    editTextTextIP.setVisibility(View.INVISIBLE);
+                    btnSecretGo.setVisibility(View.INVISIBLE);
+                    editTextTextIP.setEnabled(false);
+                    btnSecretGo.setEnabled(false);
+                    secretScore=0;
+                }
+            }
+        });
         /*try {
             getDataClass.GetData();
         }

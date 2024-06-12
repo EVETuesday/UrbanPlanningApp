@@ -4,6 +4,7 @@ import static com.example.urbanplanning.Classes.GetDataClass.Clients;
 import static com.example.urbanplanning.Classes.GetDataClass.Genders;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -51,6 +52,8 @@ public class Registration extends AppCompatActivity implements AdapterView.OnIte
     EditText tbPassword;
     EditText tbSecondPassword;
 
+    SharedPreferences settings;
+
 
     GetDataClass getDataClass;
 
@@ -60,6 +63,14 @@ public class Registration extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_registration);
 
         getDataClass = new GetDataClass();
+        try {
+            settings = getSharedPreferences("IP", MODE_PRIVATE);
+            getDataClass.API_URL=settings.getString("IP","http://192.168.0.13:5000");
+        }
+        catch(Exception ex)
+        {
+
+        }
         getDataClass.GetData();
 
 

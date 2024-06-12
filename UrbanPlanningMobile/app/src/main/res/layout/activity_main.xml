@@ -7,6 +7,41 @@
     android:background="@color/gray"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editTextTextIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="60dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="text"
+        android:text="http://192.168.0.13:5000"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <androidx.constraintlayout.utils.widget.MotionButton
+        android:id="@+id/btnSecretGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:visibility="invisible"
+        android:enabled="false"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_shape"
+        android:text="Сохранить"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextIP" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="315dp"
@@ -23,7 +58,7 @@
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewSecret"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"

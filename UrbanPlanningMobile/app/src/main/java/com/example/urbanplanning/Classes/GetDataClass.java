@@ -1,6 +1,15 @@
 package com.example.urbanplanning.Classes;
 
 
+import static android.content.Context.MODE_PRIVATE;
+
+import android.content.ContextWrapper;
+import android.content.SharedPreferences;
+import android.widget.EditText;
+
+import com.example.urbanplanning.MainActivity;
+import com.example.urbanplanning.R;
+import com.example.urbanplanning.databinding.ActivityMoreEstateObjectViewBinding;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -20,7 +29,9 @@ import java.util.List;
 public class GetDataClass {
     public boolean endThread = false;
     Client addedClient;
-    private static final String API_URL = "http://192.168.0.13:5000";
+
+    public String API_URL = "http://192.168.0.13:5000";
+
     public static ArrayList<Gender> Genders = new ArrayList<Gender>();
     public static ArrayList<Client> Clients = new ArrayList<Client>();
     public static ArrayList<EstateObject> EstateObjects = new ArrayList<EstateObject>();
@@ -29,14 +40,21 @@ public class GetDataClass {
     public static ArrayList<TypeOfActivity> TypeOfActivities = new ArrayList<TypeOfActivity>();
     public static ArrayList<Format> Formats = new ArrayList<Format>();
     public void GetData(){
+        int timeout=0;
         Thread thread = new Thread(runnable);
         thread.start();
         while (!endThread)
         {
+
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
+            }
+            timeout+=100;
+            if (timeout>5100)
+            {
+                break;
             }
         }
 
@@ -44,6 +62,7 @@ public class GetDataClass {
 
     public void AddNewClient(Client client){
         addedClient = client;
+        int timeout=0;
         Thread thread = new Thread(runnable2);
         thread.start();
         while (!endThread)
@@ -52,6 +71,11 @@ public class GetDataClass {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
+            }
+            timeout+=100;
+            if (timeout>5100)
+            {
+                break;
             }
         }
     }
