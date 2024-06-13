@@ -113,7 +113,27 @@ namespace UrbanPlanningApp.Windows
                 MessageBox.Show("Неверный формат данных");
                 return;
             }
-            
+            if (addedEstateObject.Square.ToString().Length>15)
+            {
+                MessageBox.Show("Неверный формат данных в строке - Площадь");
+                return;
+            }
+            if (addedEstateObject.Price.ToString().Length > 13)
+            {
+                MessageBox.Show("Неверный формат данных в строке - Цена");
+                return;
+            }
+            if (addedEstateObject.Adress.ToString().Length > 50)
+            {
+                MessageBox.Show("Неверный формат данных в строке - Адрес");
+                return;
+            }
+            if (addedEstateObject.Number.ToString().Length > 10)
+            {
+                MessageBox.Show("Неверный формат данных в строке - Номер");
+                return;
+            }
+
             addedEstateObject.IDPostIndex = (cmbPostIndex.SelectedItem as Postindex).IDPostindex;
             addedEstateObject.IDFormat = (cmbFormat.SelectedItem as Format).IDFormat;
             addedEstateObject.Postindex=Postindices.Where(i=>i.IDPostindex==addedEstateObject.IDPostIndex).FirstOrDefault();
