@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanPlanningApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3a2bc307b632af9cf9de3fa5f82a622b702bb5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b14a485a99afedf4195c26bdc7a4b1888bc230c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanPlanningApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanPlanningApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
